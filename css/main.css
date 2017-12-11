@@ -1,0 +1,113 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+* {
+ font-family: 'Josefin Sans', sans-serif;
+ font-style: italic;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+#location {
+  z-index: 5000;
+  color: hsla(300, 100%, 80%, 0);
+}
+
+#temperature {
+  z-index: 4000;
+  color: hsla(300, 100%, 80%, 0);
+}
+
+#weather {
+  z-index: 3000;
+  color: hsla(300, 100%, 80%, 0);
+}
+
+#error {
+  color: hsla(300, 100%, 80%, 0);
+}
+
+form {
+  text-align: center;
+  padding: 38vw;
+  margin-top: 38vh;
+}
+
+input {
+  border: none;
+  text-align: center;
+  background-color: hsla(360, 100%, 100%, 0.3);
+}
+
+#location-search {
+
+}
+
+.cold {
+  background-image: url(cold.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.warm {
+  background-image: url(warmwind.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hot {
+  background-image: url(palmer2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.smoke {
+  background-image: url(tenor.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.clouds {
+  background-image: url(untitled-1.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fog {
+  background-image: url(fog.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.mist {
+  background-image: url(fog.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.snow {
+  background-image: url(untitled-2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.rain {
+  background-image: url(rain.gif);
+}
+
+.haze {
+  background-image: url(haze.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
